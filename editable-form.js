@@ -1,7 +1,10 @@
 /* =========================================================
- * editable-form.js/css
+ * editable-form.js/css (beta)
  * =========================================================
- *  This is jQuery plug-in started by Anderson Xiu. 
+ * This is jQuery plug-in started by Anderson Xiu. It is 
+ * used for create a simple form that supports edit/display 
+ * mode, save/cancel actions, input check, and extension
+ * points.
  * ========================================================= */
 
 (function ($) {
