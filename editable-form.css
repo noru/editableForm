@@ -1,0 +1,102 @@
+.editable-form {
+    background: white;
+    color: black;
+}
+
+.editable-form .busy-mask{
+    background: rgba(0,0,0,0.15) url('../images/icons/ajax-loader100.gif') no-repeat center;
+    z-index: 100;
+    position: absolute;
+}
+
+.editable-form .message-box{
+    position: absolute;
+    width: auto;
+    height: auto;
+    background: rgba(255,255,255,0.5);
+    text-align: center;
+    padding: 2px 8px;
+    border: solid 1px red;
+    border-radius: 7px;
+    border-bottom-left-radius: 0px;
+    font-size: 11px;
+    color: red;
+}
+.editable-form .message-box:hover {
+    cursor: default;
+}
+.editable-form input.invalid{
+    background:rgba(255, 0, 0 , 0.5);
+    -webkit-transition:background 0.2s ease-in-out;
+    -moz-transition:background 0.2s ease-in-out;
+    -o-transition:background 0.2s ease-in-out;
+    transition:background 0.2s ease-in-out;
+}
+.editable-form input{
+    background: white;
+    -webkit-transition:background 2s ease-in-out;
+    -moz-transition:background 2s ease-in-out;
+    -o-transition:background 2s ease-in-out;
+    transition:background 2s ease-in-out;
+}
+
+.editable-form *{
+    display: inline-block;
+    vertical-align: super;
+}
+
+.editable-form .form-body{
+    padding: 10px 15px 3px;
+}
+
+.editable-form label{
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.editable-form .form-body input[type=checkbox],
+.editable-form .form-body input[type=radio]{
+    margin: 0;
+    vertical-align: initial;
+}
+
+.editable-form .form-body input:not([type=button]),
+.editable-form .form-body textarea{
+    border-radius: 0px;
+    height: 15px;
+    font-size: 12px;
+}
+.editable-form .form-body textarea {
+    vertical-align: top;
+    height: auto;
+    margin-bottom:5px;
+    color: #555;
+}
+.editable-form .form-body input:not([type=button]):disabled,
+.editable-form .form-body textarea:disabled{
+    border: none;
+    background: inherit;
+    box-shadow: none;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    color: #4D4D4D;
+}
+.editable-form .title-bar{
+    height: 30px;
+    width: 100%;
+    background: #E6E6E6;
+    border-bottom: solid 1px #29ABE2;
+    font: bold 14px;
+}
+.editable-form .title-bar > * {
+    vertical-align: top;
+    margin-left: 10px;
+    margin-top: 6px;
+    display: inline-block;
+}
+
+.editable-form .title-bar .eg-edit-widget{
+    float: none;
+    visibility: visible;
+    display: inline-block;
+}
